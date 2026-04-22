@@ -10,7 +10,7 @@ from flask import Flask
 from threading import Thread
 
 # ================= CONFIG =================
-BOT_TOKEN = os.getenv("8753047305:AAFxcwOGsxty9KoJrQz9dLpLYXeKAJvm9Js") or "BOT_TOKEN"
+BOT_TOKEN = os.getenv("BOT_TOKEN") or "BOT_TOKEN"
 ADMIN_ID = 8627605535
 
 bot = telebot.TeleBot(BOT_TOKEN)
